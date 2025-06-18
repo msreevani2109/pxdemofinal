@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Logout</title>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <style>
-    *{
+      * {
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
-        font-family:Arial, Helvetica, sans-serif;
-    }
-    body{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -21,37 +24,40 @@
         background: url(bgphoto.jpg);
         background-size: cover;
         background-position: center;
-    }
-    p{
+      }
+      p {
         font-size: large;
         padding: 10px;
-    }
-    button{
+      }
+      button {
         width: 100px;
-        border:none;
+        border: none;
         cursor: pointer;
         padding: 10px;
         font-size: 18px;
         background: transparent;
         backdrop-filter: blur(10px);
-        box-shadow: 0 0 30px rgba(0,0,0,0.5);
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
         color: #162938;
         border-radius: 10px;
-        }
+      }
     </style>
-</head>
-<body>
-    <h3><b>Thank you <span><i class="fa-solid fa-handshake"></i></span></b><br/>
+  </head>
+  <body>
+    <h3>
+      <b
+        >Thank you <span><i class="fa-solid fa-handshake"></i></span></b
+      ><br />
     </h3>
 
-    <p><b>Do you want to login again? click below </b>
-    </p>
-    
-    <button onClick=navigate()>Login</button>
+    <p><b>Do you want to login again? click below </b></p>
+
+    <button onClick="navigate()">Login</button>
+    <script src="script.js"></script>
     <script>
-        function navigate(){
-            window.location.href = "./login.html";
-        }
+      function navigate() {
+        window.location.href = "./login.html";
+      }
     </script>
-</body>
+  </body>
 </html>
